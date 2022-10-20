@@ -1,0 +1,42 @@
+#menu {
+    position: fixed;
+ height: 100%; 
+}
+
+.menu_active{
+    left: 0px !important;
+}
+
+.menu_nav {
+    position: absolute;
+        left: -250px;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+        transition: all 0.5s ease-in-out;
+        padding: 0 10px;
+}
+
+.menu_nav_item {
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+    border:3px solid #ccc;
+}
+
+.menu_nav_active {
+    background: rgb(115, 77, 255);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color:white;
+}
+
+.menu_nav_item:hover {
+    background: rgb(13, 110, 253);
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 10px 20px, rgba(0, 0, 0, 0.40) 0px 6px 6px;
+    transform: scale(1.02);
+    color: white;
+}
+
+
